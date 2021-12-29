@@ -1,4 +1,4 @@
 import re
 
-int main():
+def main():
 	
