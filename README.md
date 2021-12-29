@@ -3,5 +3,6 @@ A tool used to add workers to SALT (Save And Load Tool) encoded strings for the 
 
 
 
+
 The SALT custom game is used to help practice build orders without having to leave, make a new lobby, and play an entirely new game.
   More info can be found here:  https://tl.net/forum/starcraft-2/415155-build-order-and-practice-tool-salt-v2
