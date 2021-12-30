@@ -1,4 +1,8 @@
 import re
 
-def main():
-	
+
+step = {'supply':'','minutes':'','seconds':'','type':'','item':''}
+
+bo_string = input("enter SALT encoded string: ")
+
+pattern = 
