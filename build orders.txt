@@ -1,0 +1,212 @@
+  12	  0:01	  SCV	  
+  13	  0:13	  SCV	  
+  14	  0:17	  Supply Depot	  
+  14	  0:25	  SCV	  
+  15	  0:39	  SCV	  
+  15	  0:40	  Barracks	  
+  16	  0:44	  Refinery	  
+  16	  0:51	  SCV	  
+  17	  1:03	  SCV	  
+  18	  1:15	  SCV	  
+  19	  1:27	  Reaper, Orbital Command	  
+  20	  1:41	  Command Center	  
+  20	  1:48	  Supply Depot	  
+  20	  1:53	  SCV	  
+  21	  1:59	  Marine	  
+  22	  2:05	  SCV	  
+  23	  2:12	  Factory	  
+  23	  2:17	  SCV	  
+  23	  2:21	  Barracks Reactor	  
+  24	  2:29	  SCV	  
+  25	  2:41	  Command Center	  
+  25	  2:42	  SCV	  
+  26	  2:52	  Orbital Command	  
+  26	  2:54	  SCV	  
+  27	  3:00	  Barracks	  
+  27	  3:03	  Barracks Tech Lab	  
+  27	  3:06	  SCV	  
+  27	  3:09	  Hellion x2	  
+  30	  3:18	  SCV x2	  
+  34	  3:22	  Refinery	  
+  34	  3:25	  Marine	  
+  35	  3:29	  Stimpack	  
+  35	  3:31	  SCV x2	  
+  37	  3:43	  SCV x2	  
+  37	  3:46	  Marine	  
+  40	  3:49	  Starport	  
+  40	  3:53	  Orbital Command	  
+  40	  3:54	  Factory Reactor	  
+  40	  3:55	  Marine x2	  
+  42	  3:56	  SCV x2	  
+  44	  4:04	  Supply Depot	  
+  44	  4:06	  Marine	  
+  44	  4:08	  SCV x2	  
+  47	  4:12	  Marine	  
+  48	  4:19	  SCV x3	  
+  48	  4:20	  Marine x2	  
+  53	  4:28	  Supply Depot	  
+  53	  4:30	  Marine	  
+  54	  4:32	  SCV x2	  
+  54	  4:35	  Refinery, Barracks	  
+  54	  4:36	  Medivac x2, Factory Tech Lab	  
+  58	  4:40	  SCV	  
+  58	  4:45	  SCV	  
+  62	  4:48	  Engineering Bay x2	  
+  62	  4:49	  Marine x3	  
+  65	  4:54	  Supply Depot	  
+  65	  4:55	  SCV x2	  
+  65	  4:56	  Orbital Command	  
+  67	  5:03	  Refinery, Siege Tank	  
+  70	  5:07	  SCV x2	  
+  70	  5:09	  Supply Depot	  
+  70	  5:10	  Marine	  
+  73	  5:14	  Combat Shield	  
+  73	  5:18	  Supply Depot	  
+  73	  5:19	  SCV x3	  
+  74	  5:26	  Marine	  
+  77	  5:30	  Barracks Reactor	  
+  77	  5:32	  SCV x3	  
+  77	  5:33	  Marine	  
+  77	  5:35	  Terran Infantry Weapons Level 1	  
+  80	  5:38	  Starport Reactor	  
+  80	  5:41	  Marine x4, Supply Depot, Terran Infantry Armor Level 1	  
+  84	  5:44	  SCV	  
+  84	  5:49	  SCV x2	  
+  84	  5:51	  Siege Tank	  
+  84	  5:52	  Marine	  
+  84	  5:56	  SCV	  
+  90	  5:58	  Barracks x2	  
+  90	  6:01	  Marine x2	  
+  92	  6:04	  SCV x2	  
+  92	  6:08	  Supply Depot	  
+  92	  6:09	  Marine x2	  
+  96	  6:15	  SCV x2	  
+  96	  6:16	  Marine x2	  
+  99	  6:19	  Medivac x2	  
+  99	  6:21	  Marine	  
+  105	  6:26	  Siege Tank, Supply Depot	  
+  105	  6:27	  SCV x2	  
+  105	  6:30	  Marine	  
+  111	  6:33	  Refinery	  
+  111	  6:35	  Marine x2	  
+  111	  6:36	  Factory	  
+  113	  6:40	  Armory	  
+  113	  6:41	  SCV x2	  
+  113	  6:42	  Marine x2	  
+  117	  6:47	  SCV, Supply Depot, Marine	  
+  117	  6:48	  Barracks Reactor x2	  
+  117	  6:53	  SCV x2, Marine x2	  
+  122	  6:58	  Supply Depot	  
+  122	  7:00	  Widow Mine	  
+  122	  7:05	  Command Center, Marine x3	  
+  122	  7:06	  Supply Depot	  
+  124	  7:11	  Marine x2	  
+  127	  7:16	  Medivac x2	  
+  127	  7:17	  Supply Depot x2	  
+  131	  7:23	  Marine x7	  
+  122	  7:30	  Factory Reactor	  
+  122	  7:31	  Drilling Claws	  
+  122	  7:32	  Widow Mine, Marine x2	  
+  126	  7:37	  Refinery	  
+  126	  7:40	  Terran Infantry Weapons Level 2	  
+  126	  7:41	  Supply Depot, Marine x7	  
+  129	  7:46	  Medivac	  
+  135	  7:51	  Marine x2	  
+  135	  7:54	  Widow Mine	  
+  135	  7:56	  Terran Infantry Armor Level 2	  
+  135	  7:59	  Marine x4	  
+  138	  8:06	  Marine x4	  
+  138	  8:09	  Widow Mine	  
+  138	  8:13	  Medivac x2	  
+  138	  8:17	  Widow Mine, Marine x2	  
+  147	  8:20	  SCV x3, Terran Vehicle And Ship Armor Level 1	  
+  147	  8:26	  Marine x4	  
+  151	  8:29	  Widow Mine x2	  
+  151	  8:31	  Marine x2	  
+  159	  8:40	  Marauder	  
+  159	  8:41	  Marine	  
+  161	  8:43	  Medivac x2	  
+  161	  8:46	  Widow Mine	  
+  165	  8:49	  Barracks x3, Concussive Shells	  
+  164	  8:56	  Marine x6	  
+  164	  8:58	  Widow Mine x2	  
+  164	  8:59	  SCV	  
+  173	  9:06	  Marine x3	  
+  173	  9:08	  Widow Mine	  
+  178	  9:13	  Medivac	  
+  180	  9:19	  Widow Mine x2	  
+  180	  9:20	  Marine	  
+  183	  9:25	  Planetary Fortress	  
+  183	  9:26	  SCV	  
+  183	  9:30	  Widow Mine, Marine x3	  
+  177	  9:32	  SCV x2	  
+  177	  9:38	  SCV, Command Center, Sensor Tower	  
+  178	  9:40	  Widow Mine x2	  
+  178	  9:42	  Barracks Tech Lab x3, Marine x4	  
+  172	  9:50	  Marine x4	  
+  172	  9:51	  Widow Mine	  
+  177	  9:58	  Terran Infantry Weapons Level 3	  
+  177	  9:59	  Marine x4	  
+  178	  10:02	  Widow Mine x2	  
+  178	  10:06	  Refinery x2	  
+  183	  10:09	  Marine	  
+  183	  10:10	  Supply Depot	  
+  183	  10:12	  Widow Mine	  
+  184	  10:15	  Marine x4	  
+  184	  10:20	  Marauder	  
+  187	  10:28	  Terran Infantry Armor Level 3	  
+  187	  10:32	  Widow Mine x2, Marauder x2, Marine x2	  
+  196	  10:43	  Widow Mine, Liberator x2	  
+  196	  10:46	  Marine x3	  
+  189	  10:52	  Marauder x2, Marine x4	  
+  189	  10:54	  Widow Mine x2	  
+  192	  10:57	  Marine x2	  
+  192	  11:00	  Marauder	  
+  192	  11:01	  SCV x4	  
+  192	  11:04	  Marine x3	  
+  169	  11:05	  Widow Mine	  
+  169	  11:09	  Marine x4	  
+  172	  11:12	  Missile Turret	  
+  172	  11:13	  SCV	  
+  172	  11:15	  Hellion, Widow Mine	  
+  180	  11:21	  Marine x4	  
+  177	  11:26	  Widow Mine, Terran Vehicle And Ship Armor Level 2	  
+  178	  11:35	  Marine x3	  
+  178	  11:36	  Widow Mine x2, Planetary Fortress, Marauder	  
+  187	  11:43	  Marine	  
+  187	  11:44	  SCV	  
+  187	  11:54	  SCV x3	  
+  187	  11:55	  Marine x4	  
+  187	  12:00	  Marauder x3, Supply Depot	  
+  187	  12:01	  Marine	  
+  187	  12:02	  Widow Mine x2, Medivac	  
+  187	  12:07	  Marauder	  
+  187	  12:08	  SCV, Widow Mine	  
+  194	  12:21	  Ghost Academy	  
+  194	  12:22	  Marauder x2	  
+  196	  12:23	  Widow Mine	  
+  196	  12:25	  Refinery	  
+  200	  12:32	  Missile Turret x3	  
+  200	  12:36	  Factory Tech Lab	  
+  200	  13:04	  Marine x5	  
+  196	  13:08	  SCV x2	  
+  197	  13:18	  Marauder, Marine x2	  
+  197	  13:19	  Siege Tank x2	  
+  198	  13:23	  Marine	  
+  199	  13:31	  Command Center x3	  
+  199	  13:43	  Ghost x3, Terran Vehicle Weapons Level 1	  
+  199	  13:46	  Medivac x2	  
+  191	  13:49	  Ghost	  
+  191	  13:55	  SCV	  
+  190	  13:57	  Command Center	  
+  190	  13:59	  Siege Tank x2	  
+  190	  14:00	  Marine x7	  
+  178	  14:12	  Ghost x3	  
+  181	  14:17	  SCV	  
+  181	  14:18	  Ghost	  
+  185	  14:29	  Marine x6	  
+  185	  14:31	  Siege Tank x2	  
+  191	  14:39	  SCV x2, Missile Turret x2, Refinery	  
+  191	  14:40	  Ghost x3	  
+  199	  14:49	  Missile Turret	  
+  199	  14:51	  Orbital Command x2

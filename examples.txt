@@ -1,0 +1,46 @@
+$158739|spawningtool.com||~*  !)  0 /+ H !, K ,/!:" /!:!(0!H #0!O /1!Z!%3"+ %3"4 )5"H #6"S" 7"[ !7#" 07#(!#7#(!#>#5 ,>#9!%?#<#+A#M!%D#P .D#T" D#U *D#W!%D#W!%H$# /H$%!%K$+!%L$4!%L$4!%Q$>!%R$C !R$C ,R$C!&R$C 1R$C!&Z$O $Z$O $]$W" _%"!*_%" ,e%-#0i%= )i%B#"l%E +l%H#!p%R!*v%Y !v%Y !
+
+%158739|spawningtool.com||~*  !)+ 0 /+ H !, K ,/!:" /!:!(0!H #0!O /1!Z!%3"+ %3"4 15"H #6"S" 7"[ !7#" 07#(!#7#(!#>#5 ,>#9!%?#<#+A#M!%D#P .D#T" D#U 1D#W!%D#W!%H$# /H$%!%K$+!%L$4!%L$4!%Q$>!%R$C !R$C ,R$C!&R$C 0R$C!&Z$O $Z$O $]$W" _%"!*_%" ,e%-#0i%= 1i%B#"
+
+
+
+battlenet:://starcraft/map/1/185537
+
+
+
+ 
+
+%158739|spawningtool.com||~* 0 /+ H !, K ,/!:" /!:!(0!H #0!O /1!Z!%3"+ %3"4 15"H #6"S" 7"[ !7#" 07#(!#7#(!#>#5 ,>#9!%?#<#+A#M!%D#P .D#T" D#U 1D#W!%D#W!%H$# /H$%!%K$+!%L$4!%L$4!%Q$>!%R$C !R$C ,R$C!&R$C 0R$C!&Z$O $Z$O $]$W" _%"!*_%" ,e%-#0i%= 1i%B#"l%E 1
+
+
+
+
+
+
+
+%Build Order Title|Author of this build|A brief description of this build and its goals.|~"  !)"  !)"  !)"  !)"  !)"  !)"  !)" /!)" /!)" /!)" /!)" /!)
+
+
+%only scv|Author of this build|A brief description of this build and its goals.|~"  !)#  !)$ /!)
+
+
+
+
+libEE3D7A19_gv_buildOrders
+
+
+
+new_asset.encoding_number = 9;
+
+
+
+
+------- [version]title~[supply][minutes][seconds][percentage][type][item id]...
+
+
+
+
+$62730|spawningtool.com||~* 0 /+ < ,, M !/!?" /!@!(0!K #0!U %1"# ,1"& )2"/ /4"Q!P7"W" 7"Y!P=#5!PA#>!PF#I #F#O 0F#O /I#X ,I#X ,K$*!*N$6 %P$C %P$E 0R$S $T$T!*T$W" W%#  W%#  Y%-!*_%8!*d%B!#d%B!#h%H" i%V!*i%V!*m& #&q&%#%q&* ,t&1 ,t&4!#t&4!#
+
+
+
