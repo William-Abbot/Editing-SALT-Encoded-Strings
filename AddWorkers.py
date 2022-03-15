@@ -2,11 +2,17 @@ import re
 import sys
 
 
-step = {'supply':'','minutes':'','seconds':'','type':'','item':''}
-types = {'structure': 0, 'unit': 1, 'morph': 2, 'upgrade': 3}
-#4 is added to the supply number and every character that is decoded has 1 subtracted from it
+#step = {'placement': 0,'supply':'12','minutes':'','seconds':'','type':'','item':''}
+#types = {'structure': 0, 'unit': 1, 'morph': 2, 'upgrade': 3}
 
+#NOTE: before encoding, 4 is added to the supply number and then 32 is added to every number being encoded
+
+#bo = build order
 bo_string = input("enter SALT encoded string: ")
+
+#default bo_string
+if len(bo_string) == 0:
+    bo_string = '$158739|spawningtool.com||~* 0 /+ H !, K ,/!:" /!:!(0!H #0!O /1!Z!%3"+ %3"4 )5"H #6"S" 7"[ !7#" 07#(!#7#(!#>#5 ,>#9!%?#<#+A#M!%D#P .D#T" D#U *D#W!%D#W!%H$# /H$%!%K$+!%L$4!%L$4!%Q$>!%R$C !R$C ,R$C!&R$C 1R$C!&Z$O $Z$O $]$W" _%"!*_%" ,e%-#0i%= )i%B#"l%E +l%H#!p%R!*v%Y !v%Y !'
 
 bo_string_lst = bo_string.split('~')[1]
 
@@ -18,15 +24,31 @@ with_worker = sys.stdin.read()
 
 with_worker.lstrip()
 
+#default with_worker
+if not with_worker in list(map(chr, range(97, 123))):
+    f = open(r'E://Documents//Programming//repos//GitHub//Editing-SALT-Encoded-Strings//build orders.txt', 'r')
+    with_worker = f.read()
+    f.close()
+
 with_worker_lst = with_worker.split('\n')
 
 workers = ("Probe", "SCV", "Drone")
+worker_encode = {"SCV":'9',"Drone":'28',"Probe":'22'}
 
+counter = 0
+step_str = ''
+updated = ''
+
+#learning string comprehension and regular expression
 #TODO: round starting supply to 12
 for line in with_worker_lst:
-    #print(line)
     if any([w in line for w in workers]):
-        None
-    pattern = re.compile(r'(/s
-
-
+        print(line)  
+        mo = re.search('(\s+)(\d+)(\s+)(\d+)(:)(\d\d)(\s+)(\w+)', line)
+        worker = worker_encode[mo.group(8)]
+        arr = [str(int(mo.group(2))-4), mo.group(4), mo.group(6),'1',worker]
+        print(arr)
+        step_str = ''.join(list(map(lambda s : chr(int(s)+32),arr)))
+        updated = bo_string[:counter*5] + step_str + bo_string[counter*5:]
+    counter += 1
+print(updated)
