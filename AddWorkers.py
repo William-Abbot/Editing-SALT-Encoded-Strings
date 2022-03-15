@@ -14,8 +14,6 @@ bo_string = input("enter SALT encoded string: ")
 if len(bo_string) == 0:
     bo_string = '$158739|spawningtool.com||~* 0 /+ H !, K ,/!:" /!:!(0!H #0!O /1!Z!%3"+ %3"4 )5"H #6"S" 7"[ !7#" 07#(!#7#(!#>#5 ,>#9!%?#<#+A#M!%D#P .D#T" D#U *D#W!%D#W!%H$# /H$%!%K$+!%L$4!%L$4!%Q$>!%R$C !R$C ,R$C!&R$C 1R$C!&Z$O $Z$O $]$W" _%"!*_%" ,e%-#0i%= )i%B#"l%E +l%H#!p%R!*v%Y !v%Y !'
 
-bo_string_lst = bo_string.split('~')[1]
-
 #m1 = input("\n\noptions:\n  0: insert workers manually  1: paste build order with workers included")
 
 print("\n\npaste build order with workers included (press ctrl+D when finished): ")
@@ -37,7 +35,7 @@ worker_encode = {"SCV":'9',"Drone":'28',"Probe":'22'}
 
 counter = 0
 step_str = ''
-updated = ''
+updated = bo_string.split('~')[1]
 
 #learning string comprehension and regular expression
 #TODO: round starting supply to 12
@@ -47,8 +45,8 @@ for line in with_worker_lst:
         mo = re.search('(\s+)(\d+)(\s+)(\d+)(:)(\d\d)(\s+)(\w+)', line)
         worker = worker_encode[mo.group(8)]
         arr = [str(int(mo.group(2))-4), mo.group(4), mo.group(6),'1',worker]
-        print(arr)
         step_str = ''.join(list(map(lambda s : chr(int(s)+32),arr)))
-        updated = bo_string[:counter*5] + step_str + bo_string[counter*5:]
+        print(step_str)
+        updated = updated[:counter*5] + step_str + updated[counter*5:]
     counter += 1
-print(updated)
+print(bo_string.split('~')[0]+'~'+updated)
