@@ -1,7 +1,6 @@
 import re
 import sys
 
-
 #step = {'placement': 0,'supply':'12','minutes':'','seconds':'','type':'','item':''}
 #types = {'structure': 0, 'unit': 1, 'morph': 2, 'upgrade': 3}
 
@@ -23,7 +22,8 @@ with_worker = sys.stdin.read()
 with_worker.lstrip()
 
 #default with_worker
-if not with_worker in list(map(chr, range(97, 123))):
+if not any([w in list(map(chr, range(97, 123))) for w in with_worker]):
+    print("yo")
     f = open(r'E://Documents//Programming//repos//GitHub//Editing-SALT-Encoded-Strings//build orders.txt', 'r')
     with_worker = f.read()
     f.close()
@@ -37,16 +37,17 @@ counter = 0
 step_str = ''
 updated = bo_string.split('~')[1]
 
-#learning string comprehension and regular expression
+#learning string comprehension and regular expressions
 #TODO: round starting supply to 12
 for line in with_worker_lst:
-    if any([w in line for w in workers]):
-        print(line)  
+    if any([w in line for w in workers]): 
+        print(line)
         mo = re.search('(\s+)(\d+)(\s+)(\d+)(:)(\d\d)(\s+)(\w+)', line)
         worker = worker_encode[mo.group(8)]
         arr = [str(int(mo.group(2))-4), mo.group(4), mo.group(6),'1',worker]
         step_str = ''.join(list(map(lambda s : chr(int(s)+32),arr)))
-        print(step_str)
         updated = updated[:counter*5] + step_str + updated[counter*5:]
+        #counter += 1
     counter += 1
 print(bo_string.split('~')[0]+'~'+updated)
+
