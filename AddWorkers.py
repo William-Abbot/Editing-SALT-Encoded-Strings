@@ -23,7 +23,6 @@ with_worker.lstrip()
 
 #default with_worker
 if not any([w in list(map(chr, range(97, 123))) for w in with_worker]):
-    print("yo")
     f = open(r'E://Documents//Programming//repos//GitHub//Editing-SALT-Encoded-Strings//build orders.txt', 'r')
     with_worker = f.read()
     f.close()
