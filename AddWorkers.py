@@ -13,9 +13,8 @@ bo_string = input("enter SALT encoded string: ")
 if len(bo_string) == 0:
     bo_string = '$158739|spawningtool.com||~* 0 /+ H !, K ,/!:" /!:!(0!H #0!O /1!Z!%3"+ %3"4 )5"H #6"S" 7"[ !7#" 07#(!#7#(!#>#5 ,>#9!%?#<#+A#M!%D#P .D#T" D#U *D#W!%D#W!%H$# /H$%!%K$+!%L$4!%L$4!%Q$>!%R$C !R$C ,R$C!&R$C 1R$C!&Z$O $Z$O $]$W" _%"!*_%" ,e%-#0i%= )i%B#"l%E +l%H#!p%R!*v%Y !v%Y !'
 
-#m1 = input("\n\noptions:\n  0: insert workers manually  1: paste build order with workers included")
 
-print("\n\npaste build order with workers included (press ctrl+D when finished): ")
+print("\n\npaste build order with workers included (press ctrl+D when finished. You may have to press enter first): ")
 
 with_worker = sys.stdin.read()
 
