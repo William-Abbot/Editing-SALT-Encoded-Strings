@@ -39,8 +39,9 @@ updated = bo_string.split('~')[1]
 #learning string comprehension and regular expressions
 #TODO: round starting supply to 12
 for line in with_worker_lst:
-    if any([w in line for w in workers]): 
-        print(line)
+    if line == '':
+        continue
+    if any([w in line for w in workers]):
         mo = re.search('(\s+)(\d+)(\s+)(\d+)(:)(\d\d)(\s+)(\w+)', line)
         worker = worker_encode[mo.group(8)]
         arr = [str(int(mo.group(2))-4), mo.group(4), mo.group(6),'1',worker]
