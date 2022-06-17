@@ -35,8 +35,8 @@ counter = 0
 step_str = ''
 updated = bo_string.split('~')[1]
 
+#this section iterates through the build order line by line and inserts workers into SALT encoded string where need be
 #learning string comprehension and regular expressions
-#TODO: round starting supply to 12
 for line in with_worker_lst:
     if line == '':
         continue
